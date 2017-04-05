@@ -1,0 +1,27 @@
+   <style>
+      #修改未完成
+        #div_tab{background:#fff url(images/t_tab_bg.gif) repeat-x 0 bottom;height:26px;padding:15px 15px 0;margin-bottom:10px;}
+        #div_tab li{float:left;text-align:center;position:relative;list-style:none;}
+        
+        #div_tab li{background:url(images/t_tab_uselectbg.gif);margin-top:3px;height:23px;}
+        #div_tab li span{background:url(images/t_tab_uselectbg.gif);height:23px;line-height:23px;}
+        
+        #div_tab li.crent{background:url(images/t_tab_selectbg.gif);margin-top:2px;height:24px;}
+        #div_tab li.crent span{background:url(images/t_tab_selectbg.gif);height:24px;line-height:24px;}
+        
+        #div_tab li,#div_tab li.crent{color:#fff;background-repeat:no-repeat;background-position:0 0;}        
+        #div_tab li span,#div_tab li.crent span{display:inline-block;padding:0 36px 0 15px;background-repeat:no-repeat;background-position:right bottom;}
+        
+        #div_tab li .menua{color:#000;font-size:12px; text-decoration:none;position:relative;}
+        #div_tab li.crent .menua,#div_tab li .menua:hover{color:#ff0000;}
+        #div_tab li .win_close,#div_tab li.crent .win_close{width:14px;height:14px;position:absolute;top:4px;right:5px;cursor:pointer;display:block;overflow:hidden;background:url(images/t_delete_ico.gif) no-repeat;}                
+        #div_tab li .win_close{background-position:0 -14px;}
+        #div_tab li .win_close:hover{background-position:0 0;}
+        
+        .clearfix:after {content:"."; display:block;height:0;clear:both; visibility:hidden;} 
+        *html .clearfix{height:1%;}
+        *+html .clearfix{height:1%;}
+        .clearfix{display:inline-block;} 
+        /* Hide from IE Mac */ 
+        .clearfix {display:block;} 
+        </style>
